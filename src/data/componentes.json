@@ -1,0 +1,218 @@
+[
+    {
+        "ID": 0,
+        "NOMBRE": "Procesador Intel Core i7",
+        "PRECIO": 299.99,
+        "DESCRIPCION_CORTA": "Procesador de alto rendimiento",
+	    "CATEGORIA": "Procesadores",
+        "IMG": "https://m.media-amazon.com/images/I/51GYVerUgML._AC_SX679_.jpg",
+        "STOCK": 14
+    },
+    {
+        "ID": 1,
+        "NOMBRE": "Memoria RAM Kingston 8GB DDR4",
+        "PRECIO": 49.99,
+        "DESCRIPCION_CORTA": "Memoria de 8GB para PC",
+	    "CATEGORIA": "Memoria RAM",
+        "IMG": "https://m.media-amazon.com/images/I/81xsJin165L.__AC_SY300_SX300_QL70_FMwebp_.jpg",
+        "STOCK": 7
+    },
+    {
+        "ID": 2,
+        "NOMBRE": "Disco Duro Seagate 1TB",
+        "PRECIO": 59.99,
+        "DESCRIPCION_CORTA": "Disco duro de 1TB",
+	    "CATEGORIA": "Almacenamiento",
+        "IMG": "https://m.media-amazon.com/images/I/71x2h55zNpL._AC_SX679_.jpg",
+        "STOCK": 18
+    },
+    {
+        "ID": 3,
+        "NOMBRE": "Tarjeta Gráfica NVIDIA GeForce RTX 3080",
+        "PRECIO": 699.99,
+        "DESCRIPCION_CORTA": "Tarjeta gráfica de alta gama",
+ 	    "CATEGORIA": "Tarjetas Gráficas",
+        "IMG": "https://m.media-amazon.com/images/I/81SzNmM27EL._AC_SX679_.jpg",
+        "STOCK": 9
+    },
+    {
+        "ID": 4,
+        "NOMBRE": "Monitor Dell 27 4K",
+        "PRECIO": 349.99,
+        "DESCRIPCION_CORTA": "Monitor 4K de 27 pulgadas",
+	    "CATEGORIA": "Monitores",
+        "IMG": "https://m.media-amazon.com/images/I/A1Iqr2v1SIL._AC_SX679_.jpg",
+        "STOCK": 3
+    },
+    {
+        "ID": 5,
+        "NOMBRE": "Teclado mecánico Logitech G Pro X",
+        "PRECIO": 129.99,
+        "DESCRIPCION_CORTA": "Teclado mecánico para juegos",
+	    "CATEGORIA": "Periféricos",
+        "IMG": "https://m.media-amazon.com/images/I/61ep6omO+0L._AC_SX679_.jpg",
+        "STOCK": 11
+    },
+    {
+        "ID": 6,
+        "NOMBRE": "Ratón inalámbrico Logitech MX Master 3",
+        "PRECIO": 99.99,
+        "DESCRIPCION_CORTA": "Ratón inalámbrico de alta precisión",
+	    "CATEGORIA": "Periféricos",
+        "IMG": "https://m.media-amazon.com/images/I/71zp7CMBb0L._AC_SY679_.jpg",
+        "STOCK": 22
+    },
+    {
+        "ID": 7,
+        "NOMBRE": "Procesador Intel Core i3",
+        "PRECIO": 299.99,
+        "DESCRIPCION_CORTA": "Procesador de alto rendimiento",
+        "IMG": "https://m.media-amazon.com/images/I/51C8njBn7mL._AC_SX679_.jpg",
+        "CATEGORIA": "Procesadores",
+        "STOCK": 2
+    },
+    {
+        "ID": 8,
+        "NOMBRE": "Memoria RAM Kingston 16GB DDR4",
+        "PRECIO": 49.99,
+        "DESCRIPCION_CORTA": "Memoria de 16GB para PC",
+        "IMG": "https://m.media-amazon.com/images/I/61izbU70bzL._AC_SX466_.jpg",
+        "CATEGORIA": "Memoria RAM",
+        "STOCK": 16
+    },
+    {
+        "ID": 9,
+        "NOMBRE": "Disco Duro Seagate 2TB",
+        "PRECIO": 59.99,
+        "DESCRIPCION_CORTA": "Disco duro de 1TB",
+        "IMG": "https://m.media-amazon.com/images/I/51rsQeUE8sL._AC_SY879_.jpg",
+        "CATEGORIA": "Almacenamiento",
+        "STOCK": 8
+    },
+    {
+        "ID": 10,
+        "NOMBRE": "Tarjeta Gráfica NVIDIA GeForce RTX 4080",
+        "PRECIO": 899.99,
+        "DESCRIPCION_CORTA": "Tarjeta gráfica de alta gama",
+        "IMG": "https://m.media-amazon.com/images/I/71vQnBuZ3yL._AC_SX679_.jpg",
+        "CATEGORIA": "Tarjetas Gráficas",
+        "STOCK": 20
+    },
+    {
+        "ID": 11,
+        "NOMBRE": "Monitor Samsung 22",
+        "PRECIO": 349.99,
+        "DESCRIPCION_CORTA": "Monitor 4K de 27 pulgadas",
+        "IMG": "https://m.media-amazon.com/images/I/61B8Lq5NXmL._AC_SX679_.jpg",
+        "CATEGORIA": "Monitores",
+        "STOCK": 5
+    },
+    {
+        "ID": 12,
+        "NOMBRE": "Teclado mecánico Razer",
+        "PRECIO": 129.99,
+        "DESCRIPCION_CORTA": "Teclado mecánico para juegos",
+        "IMG": "https://m.media-amazon.com/images/I/71xiaUDxklL._AC_SL1500_.jpg",
+        "CATEGORIA": "Periféricos",
+        "STOCK": 13
+    },
+    {
+        "ID": 13,
+        "NOMBRE": "Ratón Logitech G305",
+        "PRECIO": 59.99,
+        "DESCRIPCION_CORTA": "Ratón inalámbrico de alta precisión",
+        "IMG": "https://m.media-amazon.com/images/I/51DYDLykzoL._AC_SL1500_.jpg",
+        "CATEGORIA": "Periféricos",
+        "STOCK": 0
+    },
+    {
+        "ID": 14,
+        "NOMBRE": "Placa Base ASUS Prime B450M-A",
+        "PRECIO": 79.99,
+        "DESCRIPCION_CORTA": "Placa base Micro-ATX para Ryzen",
+        "IMG": "https://m.media-amazon.com/images/I/810ggj-rj3L._AC_SL1500_.jpg",
+        "CATEGORIA": "Placas Base",
+        "STOCK": 6
+    },
+    {
+        "ID": 15,
+        "NOMBRE": "Fuente de Alimentación EVGA 650W",
+        "PRECIO": 69.99,
+        "DESCRIPCION_CORTA": "Fuente de alimentación de 650W",
+        "IMG": "https://m.media-amazon.com/images/I/71b8C44VDoL._AC_SL1500_.jpg",
+        "CATEGORIA": "Fuentes de Alimentación",
+        "STOCK": 0
+    },
+    {
+        "ID": 16,
+        "NOMBRE": "SSD Samsung 500GB",
+        "PRECIO": 79.99,
+        "DESCRIPCION_CORTA": "Unidad de estado sólido de 500GB",
+        "IMG": "https://m.media-amazon.com/images/I/911ujeCkGfL._AC_SX466_.jpg",
+        "CATEGORIA": "Almacenamiento",
+        "STOCK": 4
+    },
+    {
+        "ID": 17,
+        "NOMBRE": "Gabinete NZXT H510",
+        "PRECIO": 99.99,
+        "DESCRIPCION_CORTA": "Gabinete para PC ATX",
+        "IMG": "https://m.media-amazon.com/images/I/61TjgfY-LkL._AC_SL1500_.jpg",
+        "CATEGORIA": "Gabinetes",
+        "STOCK": 15
+    },
+    {
+        "ID": 18,
+        "NOMBRE": "Webcam Logitech C920",
+        "PRECIO": 79.99,
+        "DESCRIPCION_CORTA": "Cámara web de alta definición",
+        "IMG": "https://m.media-amazon.com/images/I/61szFYY6QPL._AC_SL1500_.jpg",
+        "CATEGORIA": "Periféricos",
+        "STOCK": 21
+    },
+    {
+        "ID": 19,
+        "NOMBRE": "Auriculares HyperX Cloud II",
+        "PRECIO": 89.99,
+        "DESCRIPCION_CORTA": "Auriculares para juegos con sonido envolvente",
+        "IMG": "https://m.media-amazon.com/images/I/61ll3eZ9XvL._AC_SL1500_.jpg",
+        "CATEGORIA": "Auriculares",
+        "STOCK": 1
+    },
+    {
+        "ID": 20,
+        "NOMBRE": "Impresora HP LaserJet Pro",
+        "PRECIO": 199.99,
+        "DESCRIPCION_CORTA": "Impresora láser monocromática",
+        "IMG": "https://m.media-amazon.com/images/I/51IpLcO2ojL._AC_SL1001_.jpg",
+        "CATEGORIA": "Impresoras",
+        "STOCK": 19
+    },
+    {
+        "ID": 21,
+        "NOMBRE": "Tarjeta de Red TP-Link WiFi 6",
+        "PRECIO": 49.99,
+        "DESCRIPCION_CORTA": "Tarjeta de red inalámbrica de alta velocidad",
+        "IMG": "https://m.media-amazon.com/images/I/51RoyFl5dEL._AC_SL1000_.jpg",
+        "CATEGORIA": "Tarjetas de Red",
+        "STOCK": 17
+    },
+    {
+        "ID": 22,
+        "NOMBRE": "Sistema de Enfriamiento Cooler Master Hyper 212",
+        "PRECIO": 39.99,
+        "DESCRIPCION_CORTA": "Sistema de enfriamiento para CPU",
+        "IMG": "https://m.media-amazon.com/images/I/810TAHrIckL._AC_SL1500_.jpg",
+        "CATEGORIA": "Refrigeración",
+        "STOCK": 10
+    },
+    {
+        "ID": 23,
+        "NOMBRE": "Teclado Inalámbrico Logitech K780",
+        "PRECIO": 59.99,
+        "DESCRIPCION_CORTA": "Teclado inalámbrico multitipo",
+        "IMG": "https://m.media-amazon.com/images/I/71Bth-gHViL._AC_SL1500_.jpg",
+        "CATEGORIA": "Periféricos",
+        "STOCK": 12
+    }
+]
