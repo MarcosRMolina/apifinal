@@ -5,13 +5,13 @@ export class HardwareMd {
         if(!NOMBRE){
         const [hardware, _info] = await 
         connection.query(`SELECT 
-        NOMBRE, PRECIO, DESCRIPCION_CORTA, CATEGORIA, IMG, ID, STOCK FROM hardware `);
+        NOMBRE, PRECIO, DESCRIPCION_CORTA, CATEGORIA, IMG, ID, STOCK FROM componentes `);
         return hardware.length ? hardware : null;
     }
     console.log(NOMBRE);
     const [hardware, _info] = await 
     connection.query(`SELECT NOMBRE, PRECIO, DESCRIPCION_CORTA, CATEGORIA, IMG, ID, STOCK FROM 
-    hardware where NOMBRE LIKE ('%'?'%')`, 
+    componentes where NOMBRE LIKE ('%'?'%')`, 
     [NOMBRE]);
 
     return hardware.length ? hardware : null;

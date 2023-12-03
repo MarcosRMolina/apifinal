@@ -2,7 +2,7 @@ import mysql from "mysql2/promise"
 const dbConfig = {
     host: "localhost",
     user: "root",
-    password: process.env.DB_PASS,
+    password: "Independiente1905",
     port: 3306,
     database: "hardware",
   };
