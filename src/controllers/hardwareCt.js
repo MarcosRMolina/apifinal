@@ -35,5 +35,18 @@ export class HardwareCt {
         res.status(500).json({message: "Error interno del Servidor"})
     }
 
+
+    static async updateOne(req, res){
+        const {ID} = req.params;
+        const [isHardware, _info] = await HardwareMd.getById(ID)
+        
+        if(!isHardware) return res.status(404).json({message: "No se ha encontrado el componente"})
+        const updatedHardware = await HardwareMd.updateOne(ID, req.body)
+        console.log(updatedHardware);
+        updatedHardware?
+        res.status(200).json({message: "Componente actualizado"})
+        :
+        res.status(500).json({message: "Error interno del Servidor"})
+    }
 }
 

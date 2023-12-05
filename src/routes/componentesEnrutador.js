@@ -9,3 +9,5 @@ router.get("/:ID", HardwareCt.getById);
 router.delete("/:ID", HardwareCt.deleteOne)
 
 router.post("/", HardwareCt.addOne)
+
+router.patch("/:ID", HardwareCt.updateOne)

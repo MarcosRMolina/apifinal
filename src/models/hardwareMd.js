@@ -44,4 +44,17 @@ export class HardwareMd {
         return result ? result : null;
 
     }
+
+    static async updateOne(ID, partialHardware) {
+        let queryString = "";
+        for (const key in partialHardware){
+            queryString += `${key} = '${partialHardware[key]}', `
+        }
+        queryString = queryString.slice(0, -2);
+        const [result, _info] = await connection.query(
+        `UPDATE componentes SET ${queryString} WHERE ID = ?`, [ID]
+       )
+       console.log(result);
+       return result.affectedRows
+    }
 }
