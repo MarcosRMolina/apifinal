@@ -1,22 +1,11 @@
 import { Router } from "express";
-import componentes from "../data/componentes.json" assert { type: "json" };
 export const router = Router();
+import { HardwareCt } from "../controllers/hardwareCt.js";
 
-router.get("/", (req,res) => {
-    const {CATEGORIA} = req.query;
-    if(!CATEGORIA) return res.status(200).json({info: componentes})
-    const filteredByCategory = componentes.filter(
-    c => c.CATEGORIA.toLocaleLowerCase() === CATEGORIA.toLocaleLowerCase())
-    !filteredByCategory.length
-    ? res.status(404).json({message: "no existe"})
-    : res.status(200).json({info: filteredByCategory})
-    }
-);
+router.get("/", HardwareCt.getAll) 
 
-router.get("/:ID", (req,res) => {
-    res.json({message: "find by id"});
-});
+router.get("/:ID", HardwareCt.getById);
 
-router.post("/", (req,res) => {
-console.log(req.body);
-})
+router.delete("/:ID", HardwareCt.deleteOne)
+
+router.post("/", HardwareCt.addOne)
