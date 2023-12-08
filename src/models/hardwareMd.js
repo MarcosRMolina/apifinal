@@ -3,13 +3,13 @@ import {connection} from "../../db_config.js";
 export class HardwareMd {
     static async getAll(CATEGORIA){
     if(!CATEGORIA){
-        const [hardware, _info] = await connection.query(`SELECT 
+        const [hardware, _info] = await connection.query(`SELECT ID, 
         NOMBRE, PRECIO, DESCRIPCION_CORTA, CATEGORIA, IMG, STOCK FROM componentes `);
         return hardware.length ? hardware : null;
     }
     console.log(CATEGORIA);
     const [hardware, _info] = await connection.query(
-    `SELECT NOMBRE, PRECIO, DESCRIPCION_CORTA, CATEGORIA, IMG, STOCK FROM 
+    `SELECT ID, NOMBRE, PRECIO, DESCRIPCION_CORTA, CATEGORIA, IMG, STOCK FROM 
     componentes WHERE CATEGORIA = ?`, 
     [CATEGORIA]);
 
