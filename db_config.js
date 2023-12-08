@@ -14,5 +14,3 @@ export const connection = await mysql.createConnection(dbConfig);
     err ? console.error(err) : console.log('Connected to database');
   });
 
-// const pool =mysql.createPool(dbConfig);
-// export const promisePool = pool.promise();

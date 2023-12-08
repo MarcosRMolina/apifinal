@@ -23,9 +23,10 @@ export class HardwareCt {
         const {ID} = req.params
         const result = await HardwareMd.deleteOne(ID);
         //si result es 0, no borró
-        // si result no es 0, entonces borró
+        //si result no es 0, entonces borró
         if(!result) return res.status(404).json({message: "No se encontró el componente"});
         res.status(200).json({message: "Componente eliminado"})//se usa el 200 para poder enviar un mensaje al usuario y que lo entienda. Cosa que no se puede con el 204 
+        console.log("Entro en el delete")
     }
 
     static async addOne(req, res){
@@ -33,6 +34,7 @@ export class HardwareCt {
         hardwareCreate ? res.status(201).json({message: "Componente Creado"})
         :
         res.status(500).json({message: "Error interno del Servidor"})
+        console.log("entra el addone")
     }
 
 
